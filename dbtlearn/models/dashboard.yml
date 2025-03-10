@@ -1,0 +1,18 @@
+version: 2
+
+exposures:
+  - name: executive_dashboard
+    label: Executive Dashboard
+    type: dashboard
+    maturity: low
+    url: https://4d9895b0.us2a.app.preset.io/superset/dashboard/2247db96-5cad-463f-b15e-cb8072e39d4b/?native_filters_key=6YtDZ5Uqwi0AgDxZAmJK6fWWpMRaCOCvuu4LoQIhhmpu5gh6BwyvyPNcBX6GAMvd
+    description: Executive Dashboard about Airbnb listings and hosts
+      
+
+    depends_on:
+      - ref('dim_listings_w_hosts')
+      - ref('full_moon_reviews')
+
+    owner:
+      name: Mahendra Sonawane
+      email: Mahendra.demo@gmail.com

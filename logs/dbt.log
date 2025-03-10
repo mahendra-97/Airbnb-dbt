@@ -1,0 +1,138 @@
+[0m11:38:10.403873 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002F58E1CDFA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002F58D639B50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002F58D63B980>]}
+
+
+============================== 11:38:10.416955 | 63547cbf-819e-4478-8f32-e7ae49a75d8a ==============================
+[0m11:38:10.416955 [info ] [MainThread]: Running with dbt=1.9.2
+[0m11:38:10.417937 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Mahendra.sonawane\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init dbtlearn', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:38:10.447458 [debug] [MainThread]: Starter project path: G:\Mahendra\Myprojects\udemy-dbtProject\venv\Lib\site-packages\dbt\include\starter_project
+[0m11:38:10.487494 [info ] [MainThread]: 
+Your new dbt project "dbtlearn" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:38:10.490485 [info ] [MainThread]: Setting up your profile.
+[0m11:40:16.542684 [info ] [MainThread]: Profile dbtlearn written to C:\Users\Mahendra.sonawane\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:40:16.545651 [debug] [MainThread]: Command `dbt init` succeeded at 11:40:16.545651 after 126.35 seconds
+[0m11:40:16.547648 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002F58D972C60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002F58E4F7110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002F58D747290>]}
+[0m11:40:16.548643 [debug] [MainThread]: Flushing usage events
+[0m11:40:17.822730 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:40:29.990372 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DCA9009A60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DCA91B59A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DCA9438170>]}
+
+
+============================== 11:40:29.996356 | 2f1c5af8-740f-46d3-ab16-5373efe3c4a9 ==============================
+[0m11:40:29.996356 [info ] [MainThread]: Running with dbt=1.9.2
+[0m11:40:29.997353 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Mahendra.sonawane\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m11:40:30.023285 [info ] [MainThread]: dbt version: 1.9.2
+[0m11:40:30.024282 [info ] [MainThread]: python version: 3.12.2
+[0m11:40:30.025280 [info ] [MainThread]: python path: G:\Mahendra\Myprojects\udemy-dbtProject\venv\Scripts\python.exe
+[0m11:40:30.026277 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m11:40:30.468122 [info ] [MainThread]: Using profiles dir at C:\Users\Mahendra.sonawane\.dbt
+[0m11:40:30.469092 [info ] [MainThread]: Using profiles.yml file at C:\Users\Mahendra.sonawane\.dbt\profiles.yml
+[0m11:40:30.471089 [info ] [MainThread]: Using dbt_project.yml file at G:\Mahendra\Myprojects\udemy-dbtProject\dbt_project.yml
+[0m11:40:30.473082 [info ] [MainThread]: adapter type: snowflake
+[0m11:40:30.474095 [info ] [MainThread]: adapter version: 1.9.1
+[0m11:40:30.475076 [info ] [MainThread]: Configuration:
+[0m11:40:30.477073 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m11:40:30.480065 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m11:40:30.481063 [info ] [MainThread]: Required dependencies:
+[0m11:40:30.483056 [debug] [MainThread]: Executing "git --help"
+[0m11:40:30.632047 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:40:30.633072 [debug] [MainThread]: STDERR: "b''"
+[0m11:40:30.634066 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m11:40:30.635017 [info ] [MainThread]: Connection:
+[0m11:40:30.636045 [info ] [MainThread]:   account: do98927.central-india.azure
+[0m11:40:30.637014 [info ] [MainThread]:   user: mahendras1997
+[0m11:40:30.637936 [info ] [MainThread]:   database: AIRBNB
+[0m11:40:30.638938 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m11:40:30.639934 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m11:40:30.640933 [info ] [MainThread]:   schema: DEV
+[0m11:40:30.642929 [info ] [MainThread]:   authenticator: None
+[0m11:40:30.650905 [info ] [MainThread]:   oauth_client_id: None
+[0m11:40:30.652899 [info ] [MainThread]:   query_tag: None
+[0m11:40:30.654894 [info ] [MainThread]:   client_session_keep_alive: False
+[0m11:40:30.656888 [info ] [MainThread]:   host: None
+[0m11:40:30.657887 [info ] [MainThread]:   port: None
+[0m11:40:30.659880 [info ] [MainThread]:   proxy_host: None
+[0m11:40:30.660878 [info ] [MainThread]:   proxy_port: None
+[0m11:40:30.666863 [info ] [MainThread]:   protocol: None
+[0m11:40:30.667859 [info ] [MainThread]:   connect_retries: 1
+[0m11:40:30.668857 [info ] [MainThread]:   connect_timeout: None
+[0m11:40:30.669854 [info ] [MainThread]:   retry_on_database_errors: False
+[0m11:40:30.671853 [info ] [MainThread]:   retry_all: False
+[0m11:40:30.672847 [info ] [MainThread]:   insecure_mode: False
+[0m11:40:30.673858 [info ] [MainThread]:   reuse_connections: True
+[0m11:40:30.675860 [info ] [MainThread]: Registered adapter: snowflake=1.9.1
+[0m11:40:31.353302 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m11:40:31.512639 [debug] [MainThread]: Using snowflake connection "debug"
+[0m11:40:31.513616 [debug] [MainThread]: On debug: select 1 as id
+[0m11:40:31.514612 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:40:32.534746 [debug] [MainThread]: SQL status: SUCCESS 1 in 1.020 seconds
+[0m11:40:32.536789 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m11:40:32.538751 [info ] [MainThread]: [31m1 check failed:[0m
+[0m11:40:32.539758 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <G:\Mahendra\Myprojects\udemy-dbtProject\dbt_project.yml> not found
+
+[0m11:40:32.541751 [debug] [MainThread]: Command `dbt debug` failed at 11:40:32.541751 after 2.76 seconds
+[0m11:40:32.542749 [debug] [MainThread]: Connection 'debug' was left open.
+[0m11:40:32.543738 [debug] [MainThread]: On debug: Close
+[0m11:40:32.605212 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DCA85B0D40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DCA9C57D70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DCA928BBC0>]}
+[0m11:40:32.606216 [debug] [MainThread]: Flushing usage events
+[0m11:40:33.438463 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:09:00.084388 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021703472570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021703470590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217034712E0>]}
+
+
+============================== 10:09:00.094360 | 14bc73ff-5f14-4c14-965a-35ef38b90893 ==============================
+[0m10:09:00.094360 [info ] [MainThread]: Running with dbt=1.9.2
+[0m10:09:00.096555 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Mahendra.sonawane\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt docs serve', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:09:00.096555 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path G:\Mahendra\Myprojects\udemy-dbtProject\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m10:09:00.098554 [debug] [MainThread]: Command `dbt docs serve` failed at 10:09:00.098554 after 0.24 seconds
+[0m10:09:00.099551 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021700339940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021703473290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021703472B70>]}
+[0m10:09:00.100520 [debug] [MainThread]: Flushing usage events
+[0m10:09:01.067321 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:22:40.343434 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280170889B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002801334A8A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002801677A720>]}
+
+
+============================== 11:22:40.343434 | 5e338ce8-4ec6-408c-b8b9-3401f1eb6db6 ==============================
+[0m11:22:40.343434 [info ] [MainThread]: Running with dbt=1.9.2
+[0m11:22:40.343434 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Mahendra.sonawane\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt docs generate', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m11:22:40.359055 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path G:\Mahendra\Myprojects\udemy-dbtProject\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m11:22:40.359055 [debug] [MainThread]: Command `dbt docs generate` failed at 11:22:40.359055 after 0.20 seconds
+[0m11:22:40.359055 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280144DD0D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280149E11F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028016F92960>]}
+[0m11:22:40.359055 [debug] [MainThread]: Flushing usage events
+[0m11:22:41.214558 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:37:02.758014 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A37ED0BD70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A302041070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3020428D0>]}
+
+
+============================== 11:37:02.766991 | 5fef8b05-047b-4c2d-bab0-c837b09d827a ==============================
+[0m11:37:02.766991 [info ] [MainThread]: Running with dbt=1.9.2
+[0m11:37:02.767988 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Mahendra.sonawane\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt compile', 'send_anonymous_usage_stats': 'True'}
+[0m11:37:02.768985 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path G:\Mahendra\Myprojects\udemy-dbtProject\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m11:37:02.770980 [debug] [MainThread]: Command `dbt compile` failed at 11:37:02.769983 after 0.24 seconds
+[0m11:37:02.770980 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A301D21520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3023D3EF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A37ED0BD70>]}
+[0m11:37:02.771977 [debug] [MainThread]: Flushing usage events
+[0m11:37:03.672602 [debug] [MainThread]: An error was encountered while trying to flush usage events
